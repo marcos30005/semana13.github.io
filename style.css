@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#add-topic {
+    margin-bottom: 20px;
+}
+
+#topic-input {
+    padding: 5px;
+}
+
+#topic-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#topic-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#topic-list img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.complete-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
