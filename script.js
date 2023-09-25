@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const topicInput = document.getElementById("topic-input");
+    const topicInput = document.getElementById("temaentrada");
     const addButton = document.getElementById("agregarboton");
     const topicList = document.getElementById("listadetema");
 
@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function createTopicListItem(topic, imageUrl) {
         const listItem = document.createElement("li");
+        listItem.id = "estilocss"
         const image = document.createElement("img");
         image.src = imageUrl;
         image.alt = "Imagen de tema de estudio";
